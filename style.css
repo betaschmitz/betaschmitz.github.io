@@ -1,0 +1,115 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Raleway');
+
+/* font-family: 'Raleway', sans-serif;
+
+font-family: 'Dancing Script', cursive;
+ */
+
+html,body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.name {
+	float: left;
+	font-size: 200%;
+	vertical-align: middle;
+	letter-spacing: 0.2em;
+}
+.navbar {
+	background-color: #f2d1a4;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #354a5f;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #365e7f;
+}
+
+#home {
+	background: url(img/body-bg2.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+}
+
+.landing-text h1 {
+	font-size: 300%;
+	font-weight: 700;
+}
+
+.padding {
+	padding: 80px 0;
+	color: #354a5f;
+}
+
+.padding img {
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	background-color: #f2d1a4;
+	padding: 5% 5% 10% 5%;
+	color: #354a5f;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #354a5f;
+	vertical-align: middle;
+}
+
+
+.fa:hover {
+	text-decoration: none;
+	vertical-align: middle;
+	color: #365e7f;
+}
+
+.ref-icon {
+	margin-top: 10%;
+	font-size: 12px;
+}
+
+.ref-icon a {
+	color: #354a5f;
+	text-decoration: none;
+}
+@media (max-width: 768px) {
+	.landing-text {
+		font-size: 120%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.name {
+		font-size: 140%;
+		padding-top: 10px
+	}
+}
+
+/* 928b80-ffa110-f2d1a4-354a5f-365e7f */
+
+
