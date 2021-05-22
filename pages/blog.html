@@ -1,0 +1,12 @@
+---
+layout: page
+permalink: "/blog.html"
+title: Blog
+description: Aqui você encontra todos os artigos escritos para este site
+---
+
+<div id="blog-cards" class="container row cards-container mx-5">
+    {% for post in site.posts %}
+        {% include articles-cards.html %}
+    {% endfor %}
+</div>

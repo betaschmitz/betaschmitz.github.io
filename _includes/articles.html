@@ -1,0 +1,21 @@
+<div class="artigos container-fluid mt-5">
+  <hr>
+    <h2 class="text-center">
+        Artigos Recentes
+    </h2>
+  
+    <div class="row cards-container mx-5">
+      {% for post in site.posts limit:3 %}
+        {% include articles-cards.html %}      
+      {% endfor %}
+    </div>
+
+    <hr>
+
+  <p class="text-center mt-5">
+    <a href="blog.html">
+      <button type="button" class="btn btn-primary btn-lg">Veja todos os artigos</button>
+    </a>
+  </p>
+
+</div>

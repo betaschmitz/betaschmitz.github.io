@@ -1,0 +1,15 @@
+title: Blog
+email: beta.schhmitz@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Mestra em Física pela Universidade Federal de Pelotas e doutora em Geofísica Espacial pelo Instituto Nacional de Pesquisas Espaciais. Sou uma cientista apaixonada por fotografia, gatos e python.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter: betaschmitz
+github:  betaschmitz
+permalink: /:title/
+# Build settings
+theme: minima
+
+
+plugins:
+  - jekyll-feed
