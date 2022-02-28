@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Acertando o tamanho de seus gráficos"
-description: "Descrição opcional do post"
+description: "Um guia completo de Matplotlib"
 date:   2021-05-20 10:15:00 -0300
 categories: jekyll update
 image: "/assets/img/posts/fluxo_gf.png"
